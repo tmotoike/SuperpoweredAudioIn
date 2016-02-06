@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		13EEF2151C662B8C00855ECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EEF2141C662B8C00855ECC /* main.m */; };
 		13EEF2181C662B8C00855ECC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EEF2171C662B8C00855ECC /* AppDelegate.m */; };
-		13EEF21B1C662B8C00855ECC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EEF21A1C662B8C00855ECC /* ViewController.m */; };
+		13EEF21B1C662B8C00855ECC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13EEF21A1C662B8C00855ECC /* ViewController.mm */; };
 		13EEF21E1C662B8C00855ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EEF21C1C662B8C00855ECC /* Main.storyboard */; };
 		13EEF2201C662B8C00855ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EEF21F1C662B8C00855ECC /* Assets.xcassets */; };
 		13EEF2231C662B8C00855ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EEF2211C662B8C00855ECC /* LaunchScreen.storyboard */; };
+		13EEF22C1C662C5600855ECC /* SuperpoweredIOSAudioIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13EEF22B1C662C5600855ECC /* SuperpoweredIOSAudioIO.mm */; };
+		13EEF22F1C662C8700855ECC /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EEF22E1C662C8700855ECC /* libSuperpoweredAudioIOS.a */; };
+		13EEF2311C662C9A00855ECC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EEF2301C662C9A00855ECC /* MediaPlayer.framework */; };
+		13EEF2331C662CA500855ECC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EEF2321C662CA500855ECC /* CoreMedia.framework */; };
+		13EEF2351C662CAE00855ECC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EEF2341C662CAE00855ECC /* AVFoundation.framework */; };
+		13EEF2371C662CB700855ECC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EEF2361C662CB700855ECC /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +27,19 @@
 		13EEF2161C662B8C00855ECC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13EEF2171C662B8C00855ECC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13EEF2191C662B8C00855ECC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13EEF21A1C662B8C00855ECC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13EEF21A1C662B8C00855ECC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		13EEF21D1C662B8C00855ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13EEF21F1C662B8C00855ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13EEF2221C662B8C00855ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13EEF2241C662B8C00855ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EEF22A1C662C5600855ECC /* SuperpoweredIOSAudioIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredIOSAudioIO.h; sourceTree = "<group>"; };
+		13EEF22B1C662C5600855ECC /* SuperpoweredIOSAudioIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperpoweredIOSAudioIO.mm; sourceTree = "<group>"; };
+		13EEF22D1C662C6B00855ECC /* SuperpoweredSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSimple.h; sourceTree = "<group>"; };
+		13EEF22E1C662C8700855ECC /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		13EEF2301C662C9A00855ECC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		13EEF2321C662CA500855ECC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		13EEF2341C662CAE00855ECC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		13EEF2361C662CB700855ECC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EEF2371C662CB700855ECC /* AudioToolbox.framework in Frameworks */,
+				13EEF2351C662CAE00855ECC /* AVFoundation.framework in Frameworks */,
+				13EEF2331C662CA500855ECC /* CoreMedia.framework in Frameworks */,
+				13EEF2311C662C9A00855ECC /* MediaPlayer.framework in Frameworks */,
+				13EEF22F1C662C8700855ECC /* libSuperpoweredAudioIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,14 @@
 		13EEF2071C662B8C00855ECC = {
 			isa = PBXGroup;
 			children = (
+				13EEF2361C662CB700855ECC /* AudioToolbox.framework */,
+				13EEF2341C662CAE00855ECC /* AVFoundation.framework */,
+				13EEF2321C662CA500855ECC /* CoreMedia.framework */,
+				13EEF2301C662C9A00855ECC /* MediaPlayer.framework */,
+				13EEF22E1C662C8700855ECC /* libSuperpoweredAudioIOS.a */,
+				13EEF22A1C662C5600855ECC /* SuperpoweredIOSAudioIO.h */,
+				13EEF22B1C662C5600855ECC /* SuperpoweredIOSAudioIO.mm */,
+				13EEF22D1C662C6B00855ECC /* SuperpoweredSimple.h */,
 				13EEF2121C662B8C00855ECC /* SuperpoweredAudioIn */,
 				13EEF2111C662B8C00855ECC /* Products */,
 			);
@@ -61,7 +88,7 @@
 				13EEF2161C662B8C00855ECC /* AppDelegate.h */,
 				13EEF2171C662B8C00855ECC /* AppDelegate.m */,
 				13EEF2191C662B8C00855ECC /* ViewController.h */,
-				13EEF21A1C662B8C00855ECC /* ViewController.m */,
+				13EEF21A1C662B8C00855ECC /* ViewController.mm */,
 				13EEF21C1C662B8C00855ECC /* Main.storyboard */,
 				13EEF21F1C662B8C00855ECC /* Assets.xcassets */,
 				13EEF2211C662B8C00855ECC /* LaunchScreen.storyboard */,
@@ -149,9 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13EEF21B1C662B8C00855ECC /* ViewController.m in Sources */,
+				13EEF21B1C662B8C00855ECC /* ViewController.mm in Sources */,
 				13EEF2181C662B8C00855ECC /* AppDelegate.m in Sources */,
 				13EEF2151C662B8C00855ECC /* main.m in Sources */,
+				13EEF22C1C662C5600855ECC /* SuperpoweredIOSAudioIO.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -262,7 +290,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SuperpoweredAudioIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.motoike.SuperpoweredAudioIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -273,7 +306,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SuperpoweredAudioIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.motoike.SuperpoweredAudioIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
