@@ -1,0 +1,2 @@
+# SuperpoweredAudioIn
+Superpowered を用いてMicから拾った音声データ処理の基本的なアプリケーション。
