@@ -39,6 +39,7 @@
 - (void)mapChannels:(multiOutputChannelMap *)outputMap inputMap:(multiInputChannelMap *)inputMap externalAudioDeviceName:(NSString *)externalAudioDeviceName outputsAndInputs:(NSString *)outputsAndInputs {}
 
 - (bool)audioProcessingCallback:(float **)buffers inputChannels:(unsigned int)inputChannels outputChannels:(unsigned int)outputChannels numberOfSamples:(unsigned int)numberOfSamples samplerate:(unsigned int)currentsamplerate hostTime:(UInt64)hostTime {
+    // Mic入力データをvolume倍して出力する
     for( int i = 0 ; i < numberOfSamples ; i++){
         buffers[0][i] *= volume;
         buffers[1][i] *= volume;
